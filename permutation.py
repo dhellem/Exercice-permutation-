@@ -7,6 +7,5 @@ def permutations (liste):
         permutation *= i
     return permutation
     
-liste =[3]
-result =permutations(liste)
-print (result)
+liste =[3,4,34,1,6]
+print (permutations(liste))
